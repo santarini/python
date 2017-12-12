@@ -1,5 +1,3 @@
-###user selects FV calculator
-
     print("\n" + "FUTURE VALUE CALCULATOR" + "\n")
     pv = int(input("How much money are you starting with?" "\n"))
     pr = int(input("What percentage interest rate can you achieve per year?"+ "\n"))
