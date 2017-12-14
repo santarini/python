@@ -10,6 +10,6 @@ Several of these snippets contain no more than one or two lines. But compare the
   <li>InternetExplorer.py</li>
     <ul><li>This launches an Internet Explorer window and navigates to a specific URL.</li></ul>
   <li>/RedditDaily/</li>
-    <ul><li>This contains programs written according to challenges in the subreddit r/DailyProgrammer</li></ul>
+    <ul><li>This contains random programs written according to challenges in the subreddit r/DailyProgrammer</li></ul>
   <li></li>
 </ul>
