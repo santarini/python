@@ -1,6 +1,6 @@
 # python
 
-<h3>My darling Python.<h3.
+<h3>My darling Python.</h3>
 
 Several of these snippets contain no more than one or two lines. But compare them to some of the Visual Basic and C snippets that perform the same actions, it's a testament to the awesomeness of Python.
 
