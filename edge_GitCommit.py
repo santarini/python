@@ -3,7 +3,7 @@ import time
 from selenium import webdriver
 
 driver = webdriver.Edge('C:\Program Files\Python\MicrosoftWebDriver.exe')
-driver.get('https://github.com/santarini/seleniumPushes/blob/master/workspace.md');
+driver.get('https://github.com/santarini/seleniumPushes/blob/master/pushlog.md');
 time.sleep(3)
 page_body = driver.find_element_by_tag_name('body')
 page_body.send_keys('e')
