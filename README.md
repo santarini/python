@@ -9,7 +9,7 @@
     <ul><li>This folder contains random programs written according to challenges in the subreddit <a href="https://www.reddit.com/r/dailyprogrammer/">r/DailyProgrammer</a></li></ul>
   <li>edge_GitCommit.py</li>
     <ul>
-      <li>Navigates to an mark down file on a GitHub repo, edits the file, and commits the edit.</li>
+      <li>Navigates to a mark down file on a GitHub repo, edits the file, and commits the edit.</li>
       <li>Requires Selenium and Edge/Edge drivers.</li>
   </ul>
 </ul>
