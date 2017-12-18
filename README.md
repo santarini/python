@@ -10,6 +10,6 @@
   <li>edge_GitCommit.py</li>
     <ul>
       <li>Navigates to an mark down file on a GitHub repo, edits the file, and commits the edit.</li>
-      <li>Requires Selenium.</li>
+      <li>Requires Selenium and Edge/Edge drivers.</li>
   </ul>
 </ul>
