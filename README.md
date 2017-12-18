@@ -11,5 +11,6 @@ Several of these snippets contain no more than one or two lines. But compare the
     <ul><li>This launches an Internet Explorer window and navigates to a specific URL.</li></ul>
   <li>/RedditDaily/</li>
     <ul><li>This contains random programs written according to challenges in the subreddit <a href="https://www.reddit.com/r/dailyprogrammer/">r/DailyProgrammer</a></li></ul>
-  <li></li>
+  <li>edge_GitCommit.py</li>
+    <ul><li>Navigates to an mark down file on a GitHub repo, edits the file, and commits the edit.</li></ul>
 </ul>
