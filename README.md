@@ -12,4 +12,9 @@
       <li>Navigates to a mark down file on a GitHub repo, edits the file, and commits the edit.</li>
       <li>Requires Selenium and Edge/Edge drivers.</li>
   </ul>
+  <li>time.py</li>
+    <ul>
+      <li>Prints the time. Super intresting stuff.</li>
+      <li><i>The time is gone, the song is over, thought I'd something more to say..></i></li>
+  </ul>
 </ul>
