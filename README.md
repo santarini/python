@@ -15,6 +15,6 @@
   <li>time.py</li>
     <ul>
       <li>Prints the time. Super intresting stuff.</li>
-      <li><i>The time is gone, the song is over, thought I'd something more to say..></i></li>
+      <li><i>The time is gone, the song is over, thought I'd something more to say..</i></li>
   </ul>
 </ul>
