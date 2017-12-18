@@ -12,6 +12,10 @@
       <li>Navigates to a mark down file on a GitHub repo, edits the file, and commits the edit.</li>
       <li>Requires Selenium and Edge/Edge drivers.</li>
   </ul>
+ <li>random_num.py/li>
+    <ul>
+      <li>Prints a radom number within two parameters (float or int).</li>
+  </ul> 
   <li>time.py</li>
     <ul>
       <li>Prints the time. Super intresting stuff.</li>
