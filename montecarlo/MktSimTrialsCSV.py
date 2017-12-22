@@ -2,7 +2,7 @@ import csv
 import random
 
 with open('mktsimdata.csv', 'w') as csvfile:
-    fieldnames = ['Trial','Count', 'Value']
+    fieldnames = ['Trial', 'Count', 'Value']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames, lineterminator = '\n')
 
     def marketsimulation(price, maxloss, maxgain, days):
