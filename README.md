@@ -1,7 +1,6 @@
 # python
 
-<ul>
-  <li><b>DefaultWebBrowser.py</b></li>
+  <b>DefaultWebBrowser.py</b>
     <ul><li>This launches a window in your computer's default web browser, and navigates to a specific URL</li></ul>
   <li><b>InternetExplorer.py</b></li>
     <ul><li>This launches an Internet Explorer window and navigates to a specific URL.</li></ul>
@@ -21,9 +20,8 @@
     <ul>
       <li>Prints a radom number within two parameters (float or int).</li>
   </ul> 
-  <li><b>time.py</b></li>
+  <b>time.py</b>
     <ul>
       <li>Prints the time. Super intresting stuff.</li>
       <li><i>The time is gone, the song is over, thought I'd something more to say..</i></li>
   </ul>
-</ul>
