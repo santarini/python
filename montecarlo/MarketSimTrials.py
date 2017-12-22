@@ -19,8 +19,10 @@ def marketsimulation(p, dec, inc, days):
         i+=1
 
 m = 1
-#set the number of trials (m)
-while m <= 10:
+#set the number of trials (n)
+n = 10
+
+while m <= n:
     print("\n" + "Trial " + str(m))
     marketsimulation(100, 10, 10, 10)
     m += 1
