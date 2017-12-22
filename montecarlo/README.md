@@ -1,5 +1,6 @@
 # montecarlo
 
+These sort of build onto each other (in this order)
 
 * MarketSim.py
   * simulates a market performance for a single object over a specified number of instances
