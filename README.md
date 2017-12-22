@@ -3,7 +3,7 @@
 <ul>
   <li><b>DefaultWebBrowser.py</b></li>
     <ul><li>This launches a window in your computer's default web browser, and navigates to a specific URL</li></ul>
-  <li>InternetExplorer.py</b></li>
+  <li><b>InternetExplorer.py</b></li>
     <ul><li>This launches an Internet Explorer window and navigates to a specific URL.</li></ul>
   <li><b>/RedditDaily/</b></li>
     <ul><li>This folder contains random programs written according to challenges in the subreddit <a href="https://www.reddit.com/r/dailyprogrammer/">r/DailyProgrammer</a></li></ul>
