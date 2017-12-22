@@ -1,7 +1,7 @@
 import csv
 import random
 
-with open('simdata.csv', 'w') as csvfile:
+with open('mktsimdata.csv', 'w') as csvfile:
     fieldnames = ['Trial','Count', 'Value']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames, lineterminator = '\n')
 
