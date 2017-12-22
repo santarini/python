@@ -3,7 +3,7 @@
 These sort of build onto each other (in this order)
 
 * <b>MarketSim.py</b>
-  * simulates a market performance for a single object over a specified number of instances
+  * simulates a market performance for a single variable over a specified number of instances
     * Eg. Given high and low delta parameters, simulate a companies performance over a year
 * <b>MarketSimTrials.py</b>
   * performs the entire MarketSim function a specified number of times
