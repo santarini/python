@@ -10,6 +10,7 @@ with open('mktsimdata.csv', 'w') as csvfile:
     #set the number of days (there are 260 weekdays in a year)
         j = days
         i = 1
+        writer.writerow({'Count': str(0), 'Value': str(price) })
         while i <= j:
             change = random.uniform(-maxloss,maxgain)
             result = price + change
@@ -22,6 +23,6 @@ with open('mktsimdata.csv', 'w') as csvfile:
     n = 10
 
     while m <= n:
-        writer.writerow({'Trial': "Trial " + str(m)})
+        writer.writerow({'Trial': "Trial " + str(m), 'Count': "Count", 'Value': "Value"})
         marketsimulation(100, 10, 10, 10)
         m += 1
