@@ -5,7 +5,7 @@ with open('mktsimdata.csv', 'w') as csvfile:
     fieldnames = ['Trial', 'Count', 'Value']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames, lineterminator = '\n')
 
-    def marketsimulation(price, maxloss, maxgain, days):
+    def marketsimulation( maxloss, maxgain, price=100, days=250):
 
     #set the number of days (there are 260 weekdays in a year)
         j = days
@@ -24,5 +24,5 @@ with open('mktsimdata.csv', 'w') as csvfile:
 
     while m <= n:
         writer.writerow({'Trial': "Trial " + str(m), 'Count': "Count", 'Value': "Value"})
-        marketsimulation(100, 10, 10, 10)
+        marketsimulation(10, 10, 100, 250)
         m += 1
