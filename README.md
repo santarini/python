@@ -11,7 +11,7 @@
   
 ###### WriteOutputCSV.py
 * Exports output to a CSV.
-* NOTE: Taken almost verbatim from an <a href="https://docs.python.org/2/library/csv.html">example</a> on the Python Standard Library documentation on CSV
+* NOTE: Taken almost verbatim from the DictWriter <a href="https://docs.python.org/2/library/csv.html#csv.DictWriter">usage example</a> on the Python Standard Library documentation on CSV
 
 ###### edge_GitCommit.py
 * Navigates to a mark down file on a GitHub repo, edits the file, and commits the edit.
