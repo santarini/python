@@ -65,3 +65,7 @@ finalStr = finalStr.replace("8", "---..")
 finalStr = finalStr.replace("9", "----.")
 finalStr = finalStr.replace("0", "-----")
 print(finalStr)
+
+#This only converts to morse not from morse
+#Realized I could make the code more efficient using a multidimensional list
+##Could probably also translate from morse using a list
