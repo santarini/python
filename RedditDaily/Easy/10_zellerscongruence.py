@@ -1,5 +1,3 @@
-#uses Zeller's congruence
-#http://www.careeranna.com/articles/find-day-for-given-date-quickly/
 month = int(input("Month \n"))
 day = int(input("Day \n"))
 year = int(input("Year \n"))
