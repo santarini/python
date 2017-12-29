@@ -1,5 +1,5 @@
 import itertools
-import csv
+#import csv
 x = input("What string would you like to permute? \n")
 x = x.replace(" ","")
 y = list(x)
