@@ -23,5 +23,3 @@
 ###### time.py
 * Prints the time. Super intresting stuff.
 * *The time is gone, the song is over, thought I'd something more to say...
-
-cheese
