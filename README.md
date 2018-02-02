@@ -1,6 +1,6 @@
 # python
 
-##Table of Contents
+## Table of Contents
 
 ###### /RedditDaily/
 * contains random programs written according to challenges in the subreddit <a href="https://www.reddit.com/r/dailyprogrammer/">r/DailyProgrammer</a>
