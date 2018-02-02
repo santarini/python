@@ -11,8 +11,9 @@
 ###### BithumbArb.py
 * fetches crypto trade prices on bithumb and compares them the to the average market price
 
-###### BithumbArb.py
-* fetches crypto trade prices on bithumb and compares them the to the average market price?
+###### CryptoArb.py
+* fetches crypto trade prices on exchanges? and compares them the to the average market price?
+* HEY MAKOA LOOK OVER HERE!!! FIGURE OUT WHAT THIS IS WHEN YOU GET A CHANCE!!
 
 ###### DefaultWebBrowser.py
 * launches a window in your computer's default web browser, and navigates to a specific URL
