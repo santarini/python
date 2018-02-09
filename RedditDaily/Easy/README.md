@@ -1,6 +1,6 @@
 # Reddit Daily - EASY
 
-These are programs written in Python 3 that written in accordance with tasks posted our r/RedditDailyProgrammer.
+These are programs written in Python 3 in accordance with challenges posted our r/RedditDailyProgrammer.
 
 
 ###### 1_input-output.py
