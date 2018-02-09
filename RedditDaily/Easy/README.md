@@ -26,7 +26,7 @@ These are programs written in Python 3 that written in accordance with tasks pos
 ###### 12_permutationCSV.py
   * Exports all the permutations of an input to CSV
 ###### 13_numberday.py
-  * Tells you what day of the week any date (between xx and yy) falls on
+  * Tells you what day of year (x/365) an date is
 ###### 15_docxAlignRight.py
 ###### 16_removeChars.py
 ###### 18_phoneTranslate.py
