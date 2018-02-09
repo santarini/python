@@ -1,5 +1,8 @@
 # Reddit Daily - EASY
 
+These are programs written in Python 3 that written in accordance with tasks posted our r/RedditDailyProgrammer.
+
+
 ###### 1_input-output.py
   * Takes in a string and prints
 ###### 2_fv-calculator.py
@@ -22,3 +25,8 @@
   * Lists all the permutations of an input
 ###### 12_permutationCSV.py
   * Exports all the permutations of an input to CSV
+###### 13_numberday.py
+  * Tells you what day of the week any date (between xx and yy) falls on
+###### 15_docxAlignRight.py
+###### 16_removeChars.py
+###### 18_phoneTranslate.py
