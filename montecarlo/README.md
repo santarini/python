@@ -6,7 +6,7 @@ Monte Carlo simulations are used to model the probability of different outcomes 
 
 ## Table of Contents
 
-### Coin Flip
+### Coin Flips
 
 These sort of build onto each other (in this order)
 
@@ -28,3 +28,10 @@ These sort of build onto each other (in this order)
    * exports MarketSimTrials output to CSV so that it can be manipulated by spreadsheet software (namely Excel)
      * Eg. Export the output of MarketSimTrials.py to a CSV
   
+### Dice Rolls
+
+These sort of build onto each other (in this order)
+
+* <b>RollDice.py</b>
+  * simulates a die roll over a specified number of instances
+    * Eg. Given 100 die rolls, what percentage of the time will I get 1, 2, 3, 4, 5, 6
