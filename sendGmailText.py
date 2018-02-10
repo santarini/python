@@ -11,14 +11,14 @@ driver = webdriver.Edge('C:\Program Files\Python\Python36\MicrosoftWebDriver.exe
 #navigates to a gmail
 driver.get('https://mail.google.com/mail/u/3/');
 #defines the body element of the page
+time.sleep(5)
 page_body = driver.find_element_by_tag_name('body')
 #creates new message
-time.sleep(5)
 page_body.send_keys('c')
 #define the "recipient" field
 time.sleep(1)
 recipient = driver.find_element_by_name('to')
-recipient.send_keys('recp email')
+recipient.send_keys('enter reciving email or phone number here')
 #define the "subject line" field
 subject = driver.find_element_by_name('subjectbox')
 timenow = datetime.datetime.now().strftime("%I:%M:%S %p")
