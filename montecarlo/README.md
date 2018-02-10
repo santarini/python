@@ -6,7 +6,7 @@ Monte Carlo simulations are used to model the probability of different outcomes 
 
 ## Table of Contents
 
-#### Coin Flip
+### Coin Flip
 
 These sort of build onto each other (in this order)
 
@@ -14,7 +14,7 @@ These sort of build onto each other (in this order)
   * uses a binary to simulate a coin flip over a specified number of instances
     * Eg. Given 100 coin flips, what percentage of the time will I get heads or tails
     
-#### Market Sims
+### Market Sims
 
 These sort of build onto each other (in this order)
 
