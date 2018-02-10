@@ -11,7 +11,7 @@
 
 ###### CryptoArb.py
 * fetches crypto trade prices on exchanges? and compares them the to the average market price?
-* HEY MAKOA LOOK OVER HERE!!! FIGURE OUT WHAT THIS IS WHEN YOU GET A CHANCE!!
+* this was my first attempt at pulling arb data directly from the HTML of websites
 
 ###### DefaultWebBrowser.py
 * launches a window in your computer's default web browser, and navigates to a specific URL
