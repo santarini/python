@@ -8,8 +8,6 @@ Monte Carlo simulations are used to model the probability of different outcomes 
 
 ### Coin Flips
 
-These sort of build onto each other (in this order)
-
 * <b>CoinFlip.py</b>
   * uses a binary to simulate a coin flip over a specified number of instances
     * Eg. Given 100 coin flips, what percentage of the time will I get heads or tails
@@ -31,8 +29,6 @@ These sort of build onto each other (in this order)
      * Eg. Export the output of MarketSimTrials.py to a CSV
   
 ### Dice Rolls
-
-These sort of build onto each other (in this order)
 
 * <b>RollDie.py</b>
   * simulates a die roll over a specified number of instances
