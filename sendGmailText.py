@@ -18,7 +18,7 @@ page_body.send_keys('c')
 #define the "recipient" field
 time.sleep(1)
 recipient = driver.find_element_by_name('to')
-recipient.send_keys('8087796026@mms.att.net')
+recipient.send_keys('recp email')
 #define the "subject line" field
 subject = driver.find_element_by_name('subjectbox')
 timenow = datetime.datetime.now().strftime("%I:%M:%S %p")
