@@ -1,5 +1,3 @@
-# python
-
 ## Table of Contents
 
 ###### /RedditDaily/
