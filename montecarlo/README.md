@@ -18,7 +18,7 @@ These sort of build onto each other (in this order)
 
 * <b>MarketSim.py</b>
   * simulates a market performance for a single variable over a specified number of instances
-    * Eg. Given max and min avg daily delta parameters, simulate a companies performance over a year
+    * Eg. Given max and min avg daily delta parameters, simulate a company's performance over a year
     
 * <b>MarketSimTrials.py</b>
   * performs the entire MarketSim function a specified number of times
