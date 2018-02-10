@@ -2,7 +2,9 @@
 
 Monte Carlo simulations are used to model the probability of different outcomes in a process that cannot easily be predicted due to the intervention of random variables. They can be used to understand the impact of risk and uncertainty in prediction and forecasting models.
 
+
 ## Table of Contents
+
 
 ### Coin Flips
 
