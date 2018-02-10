@@ -18,19 +18,19 @@ page_body.send_keys('c')
 #define the "recipient" field
 time.sleep(1)
 recipient = driver.find_element_by_name('to')
-recipient.send_keys('reciving email')
+recipient.send_keys('8087796026@mms.att.net')
 #define the "subject line" field
 subject = driver.find_element_by_name('subjectbox')
 timenow = datetime.datetime.now().strftime("%I:%M:%S %p")
 datenow = datetime.datetime.now().strftime("%Y-%m-%d")
 subject.send_keys("Application completed" + Keys.TAB + timenow)
-subject.send_keys(Keys.COMMAND + Keys.ENTER)
+time.sleep(2)
 #define the "body" field
 #emailBody = driver.find_element_by_id(":90")
 #emailBody.send_keys(timenow)
 #define the send button and click it
-#sendButton = driver.find_element_by_id(":7n")
-#sendButton.click()
+sendButton = driver.find_element_by_id(":7n")
+sendButton.click()
 #close the programe
 time.sleep(5)
 driver.quit()
