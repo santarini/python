@@ -11,6 +11,10 @@ Monte Carlo simulations are used to model the probability of different outcomes 
 * <b>CoinFlip.py</b>
   * uses a binary to simulate a coin flip over a specified number of instances
     * Eg. Given 100 coin flips, what percentage of the time will I get heads or tails
+
+* <b>CoinFlipTrials.py</b>
+  * performs the entire CoinFlip function a specified number of times
+    * Eg. Do CoinFlip.py 1,000,000 times (START WITH A 10!!)
     
 ### Market Sims
 
