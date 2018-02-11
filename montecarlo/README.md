@@ -42,3 +42,6 @@ These sort of build onto each other (in this order)
   * simulates the roll of two die (or dice) over a specified number of instances
     * Eg. Given 100 dice rolls, what percentage of the time will I get 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
  
+* <b>RollDiceTrials.py</b>
+  * performs the entire RollDice function a specified number of times
+    * Eg. Do RollDice.py 1,000,000 times (START WITH A 10!!)
