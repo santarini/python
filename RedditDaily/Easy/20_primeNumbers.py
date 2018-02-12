@@ -4,7 +4,7 @@
 #define two ints equal to the current number undergoing the check
 i=2
 
-#create int to be modulo holder
+#creat int to be modulo holder
 m =0
 
 print(i)
@@ -12,16 +12,19 @@ i+=1
 print(i)
 i+=1
 j = i -1
-while i < 2000:
+while i < 100:
     j = i -1
+    
     while j > 1:
         m = i%j
         if m == 0:
-            #stop counting down
+            #number is composite
+            #stop counting down, break loop
             j = 1
             #go to next i
             i += 1
         if j == 2:
+            #you've reached the bottom without encountering a perfect divisor
             print(i)
             i += 1
         else:
