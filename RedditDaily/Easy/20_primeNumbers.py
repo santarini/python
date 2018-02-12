@@ -11,10 +11,9 @@ print(i)
 i+=1
 print(i)
 i+=1
-j = i -1
-while i < 100:
+
+while i <= 2000:
     j = i -1
-    
     while j > 1:
         m = i%j
         if m == 0:
@@ -29,4 +28,4 @@ while i < 100:
             i += 1
         else:
             #if nothing else decrement j
-            j = j -1
+            j -= 1
