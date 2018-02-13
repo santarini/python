@@ -29,6 +29,8 @@
 * Navigates to a mark down file on a GitHub repo, edits the file, and commits the edit.
 * Requires Selenium and Edge/Edge drivers.
 
+###### inputToArrray.py
+
 ###### random_num.py
 * Prints a radom number within two parameters (float or int).
 
