@@ -7,7 +7,7 @@
 * contains programs that perform monte carlo simulations
 
 ###### BithumbArb.py
-* fetches crypto trade prices on bithumb and compares them the to the average market price
+* fetches crypto trade prices on bithumb and compares them the to the average coinmarketcap.com price
 
 ###### CryptoArb.py
 * fetches crypto trade prices on exchanges? and compares them the to the average market price?
