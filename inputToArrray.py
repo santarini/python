@@ -11,7 +11,7 @@ print(numberArray)
 ##########String to array
 
 #recieve input
-startNumber = input("Please enter your string: ")
+startStr = input("Please enter your string: ")
 #create array
-numberArray = [str(i) for i in startNumber]
-print(numberArray)
+strArray = [str(i) for i in startStr]
+print(strrArray)
