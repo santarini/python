@@ -3,7 +3,7 @@
 #recieve input
 startNumber = input("Please enter your number: ")
 #create array
-numberArray = [int(i) for i in startNumber]
+numberArray = [int(i) for i in startNumber.split()]
 print(numberArray)
 
 
