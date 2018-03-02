@@ -1,4 +1,4 @@
-##########Number to array
+##########Space seperate number to lists
 
 #recieve input
 startNumber = input("Please enter your number: ")
@@ -13,5 +13,17 @@ print(numberArray)
 #recieve input
 startStr = input("Please enter your string: ")
 #create array
-strArray = [str(i) for i in startStr]
-print(strrArray)
+charArray = [str(i) for i in startStr]
+print(charArray)
+
+
+
+
+
+##########Space seperated words to array
+
+#recieve input
+startStr = input("Please enter your string: ")
+#create array
+strArray = [str(i) for i in startStr.split()]
+print(strArray)
