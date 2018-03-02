@@ -8,7 +8,7 @@ print(numberArray)
 
 
 
-##########String to array
+##########Characters to array
 
 #recieve input
 startStr = input("Please enter your string: ")
