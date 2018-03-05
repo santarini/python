@@ -54,3 +54,7 @@ This repo is an aggregation of Python programs and snippets. I almost always com
 
 ###### WritetoTXT.py
 * Exports output to a TXT.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
