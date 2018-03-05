@@ -2,7 +2,7 @@
 
 Python is the Dog of programming -- it loves you uncondtionally.
 
-This repo is an aggregation of Python programs and snippets. I almost always come here before I start writing a new Python script because I have so many useful snippets already written out. And all of these snippets are in one place, from here scripting largely becomes *plug-and-play*.
+This repo is an aggregation of Python programs and snippets. I almost always come here before I start writing a new Python script because I have so many useful snippets already written out. And having all of these snippets in one place makes scripting largely *plug-and-play*.
 
 ## Contents
 
