@@ -1,0 +1,14 @@
+import re
+def testForPhone(test):
+    phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
+    mo = phoneNumRegex.findall(test)
+    print(mo)
+    phoneNumRegex = re.compile(r'\(\d\d\d\)\s?\d\d\d-\d\d\d\d')
+    mo = phoneNumRegex.findall(test)
+    print(mo)
+    phoneNumRegex = re.compile(r'\d\d\d\.\d\d\d\.\d\d\d\d')
+    mo = phoneNumRegex.findall(test)
+    print(mo)
+
+test = 'Call me at 415-555-1011 tomorrow. (415) 555-9999 is my office. 415.555.1999 is my land line.'
+testForPhone(test)
