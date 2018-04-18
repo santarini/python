@@ -14,6 +14,8 @@ test = 'Call me at 415-555-1011 tomorrow. (415) 555-9999 is my office. 415.555.1
 testForPhone(test)
 
 
+#one single regex to rule them all
+
 import re
 def testForPhone2(test):
     phoneNumRegex = re.compile(r'''(
