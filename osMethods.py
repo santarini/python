@@ -1,8 +1,19 @@
 import os
 
+#os.makedirs()
+#creates a path (ie. creates a directories and/or files)
+
+#os.path.join()
+#creates a path formatted for your OS
+#print(os.path.join('Users', 'UserName', 'Desktop')) and os.path.join('Users', 'UserName', 'Desktop') return two entirely seperate values
+os.path.join('Users', 'UserName', 'Desktop')
+
 #os.getcwd()
 #gets current working directory
 print(os.getcwd())
+
+#os.chdir()
+#changes current working directory
 
 #os.path.basename(path)
 #returns path base name (end file or directory)
