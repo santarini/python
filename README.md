@@ -1,6 +1,6 @@
 # Python
 
-Python is the Dog of programming -- it loves you uncondtionally.
+Python is man's best friend.
 
 This repo is an aggregation of Python programs and snippets. I almost always come here before I start writing a new Python script because I have so many useful snippets already written out. And having all of these snippets in one place makes scripting largely *plug-and-play*.
 
