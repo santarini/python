@@ -8,6 +8,8 @@ def job(t):
     rand1 = random.randint(0, 20)
     i = 0
     while i < rand1:
+        rand2 = random.randint(0, 20)
+        time.sleep(rand2)
         driver = webdriver.Edge('C:\Program Files\Python\Python36\MicrosoftWebDriver.exe')
         driver.get('https://github.com/santarini/seleniumPushes/blob/master/AutomatedPythongLog.md');
         page_body = driver.find_element_by_tag_name('body')
