@@ -5,7 +5,7 @@ import random
 from selenium import webdriver
 
 def job(t):
-    rand1 = random.randint(1, 10)
+    rand1 = random.randint(0, 20)
     i = 0
     while i < rand1:
         driver = webdriver.Edge('C:\Program Files\Python\Python36\MicrosoftWebDriver.exe')
