@@ -1,4 +1,4 @@
-import random
+#https://docs.python.org/2/library/datetime.html
 import datetime
 
 dayofWeek = datetime.datetime.today().weekday()
