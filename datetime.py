@@ -1,8 +1,7 @@
-#https://docs.python.org/2/library/datetime.html
-
+import random
 import datetime
 
 dayofWeek = datetime.datetime.today().weekday()
 fullDate = datetime.datetime.now().strftime("%Y-%m-%d")
-
-print(str(dayofWeek) + " " + fullDate)
+weekdays = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday", "Sunday"]
+print(weekdays[dayofWeek] + " " + fullDate)
