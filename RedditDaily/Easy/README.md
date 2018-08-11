@@ -32,3 +32,7 @@ These are programs written in Python 3 in accordance with challenges posted our 
 ###### 18_phoneTranslate.py
 ###### 20_primeNumbers.py
 ###### 21_nextHighestNum.py
+###### 22_UniqueAppend.py
+###### 23_ListSplit.py
+###### 25_voteMajority.py
+###### 26_consecDuplicates.py
