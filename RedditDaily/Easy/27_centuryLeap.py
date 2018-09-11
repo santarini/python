@@ -17,13 +17,13 @@ def centuryCal():
 
 #check if leap year
     if not(int(yearInput) % 4 == 0):
-        print("Common Year")
+        print(str(yearInput)+ " was a Common Year")
     elif not(int(yearInput) % 100 == 0):
-        print("Leap Year")
+        print(str(yearInput)+ " was a Leap Year")
     elif not(int(yearInput) % 400 == 0):
-        print("Common Year")
+        print(str(yearInput)+ " was a Common Year")
     else:
-        print("Common Year")
+        print(str(yearInput)+ " was a Common Year")
 
     print("\n")
     
