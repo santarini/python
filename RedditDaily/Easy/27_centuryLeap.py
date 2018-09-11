@@ -1,5 +1,5 @@
-import math
 import datetime
+import math
 
 def centuryCal():
     yearInput = input("Enter year: \n")
