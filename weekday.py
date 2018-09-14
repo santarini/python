@@ -19,7 +19,6 @@ print("Saturday's date is " + endWeek.strftime("%Y-%m-%d"))
 datesInWeek =[]
 
 for x in range (0, 7):
-    sublist.append((beginWeek + timedelta(days = x)).strftime('%Y-%m-%d'))
-    dateList.append(subList)
+    datesInWeek.append((beginWeek + timedelta(days = x)).strftime('%Y-%m-%d'))
 
-print(sublist)
+print(datesInWeek)
