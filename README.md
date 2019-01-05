@@ -60,3 +60,16 @@ I started making a contents list when I first made this repo. How naive.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
+
+
+### Adding Create New Python File to Context Menu
+https://stackoverflow.com/questions/19758455/how-do-i-add-a-new-python-script-option-to-the-context-menu/48096112#48096112
+
+1. Open Regedit
+2. Navigate to Computer\HKEY_CLASSES_ROOT.py
+3. Right click on the .py key > New > Key
+4. Name the new key "ShellNew"
+5. Inside the ShellNew key, add a new string value
+6. Name the string value "NullFile"
+7. Change the NullFile's value to 1
+8. That's it!
