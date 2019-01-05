@@ -1,7 +1,5 @@
 # Python
 
-Python is my first love.
-
 This repo is an aggregation of Python programs and snippets. I ~~almost always~~ used to come here before I started writing a new Python script because I have so many useful snippets already written out. But over the years I've become impatient and just started pasting snippets all over the place with no description and now I have no idea what half of them do. So nowadays I just visit past projects that I remember had similar functionalites to the ones I'm trying to create. ~~And having all of these snippets in one place makes scripting largely *plug-and-play*.~~
 
 ## Contents
