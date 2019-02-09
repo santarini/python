@@ -6,6 +6,19 @@ playerBank = 1000
 craps = [2,3,12]
 naturals = [7,11]
 
+#1 : 1 Snake eyes (Aces)
+#2 : 1 Ace Deuce
+#2 : 2 Hard Four
+#3 : 1 Easy Four
+#6 : 6 Box Cars
+
+def quickGame(gameType):
+    playerBank = 1000
+    betType = gameType
+    bet = 100
+    trials = 10
+    startCraps(playerBank, betType, bet, trials)
+
 def createGame():
     playerBank = int(input("How much money would you like to start with? "))
     betType = input("What type of bet would you like to make? ")
@@ -26,7 +39,9 @@ def startCraps(playerBank, betType, bet, trials):
     payout = []
     gameCount = 1
     while gameCount <= trials:
+        print("-----------")
         print("Game #" + str(gameCount))
+        print("-----------")
         comeOutRoll = rolldice()
         if (comeOutRoll == 2) or (comeOutRoll == 3):
             print("Craps!")
@@ -72,20 +87,20 @@ def startCraps(playerBank, betType, bet, trials):
                 subsequentRoll = rolldice()
             if subsequentRoll == 7:
                 if betType == "Pass":
+                    print("Seven Out!")
                     #pass line bets lose
-                    print("Craps!")
                     playerBank = playerBank - bet
                     print(playerBank)
                     payout.append(playerBank)
                 if betType == "No Pass": 
                 #no pass bets win
-                    print("Natural")
                     playerBank = playerBank + bet
                     print(playerBank)
                     payout.append(playerBank)
             elif subsequentRoll == point:
                 if betType == "Pass":
                     #pass line bets win
+                    print("Point!")
                     playerBank = playerBank + bet
                     print(playerBank)
                     payout.append(playerBank)
@@ -95,16 +110,16 @@ def startCraps(playerBank, betType, bet, trials):
                     playerBank = playerBank - bet
                     print(playerBank)
                     payout.append(playerBank)
-            elif subsequentRoll == 12:
-                if betType == "Pass":
-                    #pass line bets win
-                    playerBank = playerBank + bet
-                    print(playerBank)
-                    payout.append(playerBank)
-                if betType == "No Pass":
-                    #no pass bets lose
-                    print("Push")
-                    print(playerBank)
-                    payout.append(playerBank)
+##            elif subsequentRoll == 12:
+##                if betType == "Pass":
+##                    #pass line bets lose
+##                    playerBank = playerBank + bet
+##                    print(playerBank)
+##                    payout.append(playerBank)
+##                if betType == "No Pass":
+##                    #no pass bets push
+##                    print("Push")
+##                    print(playerBank)
+##                    payout.append(playerBank)
         gameCount += 1
     return payout
