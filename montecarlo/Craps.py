@@ -135,7 +135,7 @@ def multipleSimulations(totalTrials, playerBank, betType, bet, trials):
             fieldNameList.append(str(t))
 
         testDictionary = {'0': playerBank}
-        for t in range(1,trials):
+        for t in range(0,trials):
             testDictionary[fieldNameList[t]] = payoutResult[t]
         
         with open(betType + '.csv', mode='a') as csv_file:
