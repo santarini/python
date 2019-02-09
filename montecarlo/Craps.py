@@ -123,3 +123,22 @@ def startCraps(playerBank, betType, bet, trials):
 ##                    payout.append(playerBank)
         gameCount += 1
     return payout
+
+
+def multipleSimulations(totalTrials, playerBank, betType, bet, trials):
+    j = 1
+    while j <= totalTrials:
+        payoutResult = startCraps(playerBank, betType, bet, trials)
+        fieldNameList = []
+        for t in range(0,trials+1):
+            fieldNameList.append(str(t))
+
+        testDictionary = {'0': playerBank}
+        for t in range(1,trials):
+            testDictionary[fieldNameList[t]] = payoutResult[t]
+        
+        with open(betType + '.csv', mode='a') as csv_file:
+            fieldnames = fieldNameList
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames, lineterminator = '\n')
+            writer.writerow(testDictionary)
+        j+=1
