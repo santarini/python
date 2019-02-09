@@ -130,6 +130,7 @@ def multipleSimulations(totalTrials, playerBank, betType, bet, trials):
     while j <= totalTrials:
         payoutResult = startCraps(playerBank, betType, bet, trials)
         fieldNameList = []
+        testDictionary = {}
         for t in range(0,trials+1):
             fieldNameList.append(str(t))
 
