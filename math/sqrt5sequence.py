@@ -9,6 +9,6 @@ Define a sequence $\{a_n\}_{n=1}^\infty$ by setting $a_1=1$, and defining $a_{n+
 import math
 
 x = math.sqrt(5)
-for i in range(1,20):
+for i in range(1,55):
     print(x)
     x = math.sqrt(5*x)
