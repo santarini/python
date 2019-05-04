@@ -59,6 +59,10 @@ I started making a contents list when I first made this repo. How naive.
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
+#### Upgrade pip
+
+`python -m pip install --upgrade pip`
+
 
 ### Adding Create New Python File to Context Menu
 https://stackoverflow.com/questions/19758455/how-do-i-add-a-new-python-script-option-to-the-context-menu/48096112#48096112
